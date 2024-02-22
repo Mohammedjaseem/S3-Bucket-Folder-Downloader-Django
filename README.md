@@ -7,8 +7,8 @@
         class DownloadFolderView(View):
             def get(self, request):
                 # Replace 'your-bucket-name' and 'your-folder-path' with your actual bucket name and folder path
-                bucket_name = 'connectv2s3'
-                folder_path = 'Inceptra2k24/QrCodes/'
+                bucket_name = 'your-bucket-name'
+                folder_path = 'your-folder-path'
         
                 # Initialize Boto3 S3 client
                 s3 = boto3.client('s3')
